@@ -7,10 +7,10 @@ import Router from 'vue-router'
 
 const service = axios.create({
   //baseURL: process.env.NODE_ENV === 'production' ? 'https://www.sicklequant.com/api/' : 'http://47.74.186.8:8010/',
-  // baseURL: '/api', //生产
+  baseURL: '/api', //生产
   // baseURL: 'http://47.244.44.174:8010/',
   // baseURL: http://47.74.186.8:8010
-  baseURL: 'http://47.74.186.8:8010/',
+  // baseURL: 'http://47.74.186.8:8010/',
   timeout: 10000,
 });
 axios.defaults.headers = {
